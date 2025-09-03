@@ -1,0 +1,16 @@
+# Created with YamlCreate.ps1 Dumplings Mod
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+
+PackageIdentifier: RIA.eIDsoftware
+PackageVersion: 25.8.18.8398
+InstallerType: exe
+InstallerSwitches:
+  Silent: /S
+  SilentWithProgress: /S
+Scope: machine
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://installer.id.ee/media/win/Open-EID-25.8.18.8398.exe
+    InstallerSha256: "2BFCBF4286FEFFC317051638B13EDC8FB755FB7FBA13F66DE936668F79214687"
+ManifestType: installer
+ManifestVersion: 1.10.0
