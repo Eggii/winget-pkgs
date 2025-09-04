@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.10.0.schema.json
+PackageIdentifier: RIA.eIDsoftware
+PackageVersion: 25.8.18.8398
+PackageLocale: en-US
+Publisher: RIA
+PublisherUrl: https://www.ria.ee/
+PublisherSupportUrl: https://www.id.ee/en/
+Author: Estonian Information System Authority
+PackageName: eID software
+PackageUrl: https://www.id.ee/en/
+License: LGPL-2.1
+ShortDescription: Estonian eID software bundle (Open-EID middleware and DigiDoc4 Client)
+Description: |-
+  The eID software bundle includes all necessary components for Estonian ID-card, Mobile-ID, and Smart-ID support, combining the Open-EID middleware with the DigiDoc4 client application.
+Tags:
+- eid
+- estonia
+- id-card
+- middleware
+ReleaseNotesUrl: https://www.id.ee/en/article/information-on-the-latest-software-versions/
+ManifestType: defaultLocale
+ManifestVersion: 1.10.0
